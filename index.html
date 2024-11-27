@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>臻云工业物联网 | 北京行臻科技有限责任公司</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f7;
+        }
+        header {
+            background: #fff;
+            color: #000;
+            padding: 1em 2em;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            font-size: 1.2em;
+            margin: 0;
+            font-weight: 600;
+            color: #0071e3;
+        }
+        nav {
+            display: flex;
+            gap: 1em;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: 500;
+            padding: 0.5em;
+        }
+        nav a:hover {
+            color: #0071e3;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+        .banner {
+            padding: 8em 2em 6em;
+            text-align: center;
+            background: #f5f5f7;
+            color: #000;
+            margin-top: 80px; /* Offset for fixed header */
+        }
+        .banner h1 {
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 0.5em;
+        }
+        .banner p {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2em;
+        }
+        section {
+            padding: 4em 2em;
+            /* max-width: 900px; */
+            margin: auto,20px;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 2em;
+        }
+        section h2 {
+            font-size: 1.8em;
+            color: #000;
+            margin-bottom: 0.5em;
+        }
+        section h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+        section p, section ul {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+        }
+        section ul {
+            padding-left: 1.5em;
+            list-style-type: disc;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1.5em;
+        }
+        footer {
+            background: #f5f5f7;
+            color: #666;
+            padding: 2em;
+            text-align: center;
+            font-size: 0.9em;
+            border-top: 1px solid #e0e0e0;
+        }
+        footer a {
+            color: #0071e3;
+            text-decoration: none;
+            margin: 0 0.5em;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        /* 调整图片容器为2列布局 */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 每行2列 */
+            gap: 16px; /* 图片间距 */
+            margin-top: 16px;
+        }
+
+        /* 图片样式 */
+        .image-gallery img {
+            width: 100%; /* 图片宽度填满容器 */
+            height: auto; /* 保持图片比例 */
+            border-radius: 8px; /* 可选：圆角 */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 可选：阴影 */
+        }
+    </style>
+</head>
+<body>
+<div class="body">
+    <header>
+        <h1>臻云工业物联网</h1>
+        <nav>
+            <a href="#company-intro">公司简介</a>
+            <a href="#platform-advantages">平台优势</a>
+            <a href="#gateway-solution">网关解决方案</a>
+            <a href="#experience">体验演示</a>
+            <a href="#contact">联系我们</a>
+        </nav>
+    </header>
+    
+    <section class="banner" >
+    <!-- <section class="banner" style="background-image: url('10.png'); background-size: cover; background-position: center; background-repeat: no-repeat; opacity: 0.1;"> -->
+    
+        <h1>臻云工业物联网平台</h1>
+        <p>北京行臻科技有限责任公司</p>
+        <p>用云的力量助力工业智能化转型</p>
+        <!-- <img src="10.png" alt="臻云工业物联网平台" /> -->
+    </section>
+    
+    <section id="company-intro">
+        <h2>公司简介</h2>
+        <p>臻云工业物联网由一支经验丰富的技术团队开发，致力于为客户提供简单高效的工业设备管理解决方案。</p>
+        <!-- <img src="company-image.jpg" alt="公司团队" /> -->
+    </section>
+    
+    <section id="platform-advantages">
+        <h2>平台优势</h2>
+        <ul>
+            <li>简单易用： 全球首创“傻瓜式”自助开发工具，拖拉拽即可完成物联网设备的开发。</li>
+            <li>功能丰富： 全栈应用服务模块随心组合，内置产品生命周期管理系统。</li>
+            <li>稳定灵活： 支持亿级设备的长连接，具备日处理十亿级数据消息的能力。</li>
+            <li>安全可靠： 提供多重加密方式和超高并发处理能力，确保数据安全和系统稳定。</li>
+            <li>专业定制： 针对制冷、制热领域深度优化，提供个性化服务。</li>
+            <li>持续优化： 每年投入上千万元进行研发和优化，确保平台技术的前沿性和高性能。</li>
+        </ul>
+        <div class="image-gallery">
+            <img src="1.png" alt="平台优势" />
+            <img src="2.png" alt="平台优势" />
+            <img src="3.png" alt="平台优势" />
+            <img src="4.png" alt="平台优势" />
+            <img src="5.png" alt="平台优势" />
+            <img src="6.png" alt="平台优势" />
+            <img src="7.png" alt="平台优势" />
+            <img src="8.png" alt="平台优势" />
+    
+        </div>
+    
+    
+        
+        
+    </section>
+     
+    
+    
+    <section id="gateway-solution">
+        <h2>网关解决方案</h2>
+        <h3>数据采集单元（DTU）</h3>
+        <ul>
+            <li>支持协议：Modbus RTU</li>
+            <li>通信方式：GPRS无线通信</li>
+            <li>优化设计：专为工业环境优化</li>
+        </ul>
+        <img src="11.png" alt="网关解决方案" />
+    </section>
+    
+    <section id="experience">
+        <h2>体验臻云</h2>
+        <p>体验远程监控及管理：</p>
+        <ul>
+            <li>关注微信公众号"设备智能"，绑定设备。</li>
+            <li>使用Web端查看实时数据。</li>
+        </ul>
+        <!-- <img src="experience-demo.jpg" alt="体验臻云" /> -->
+    </section>
+    
+    <section id="contact">
+        <h2>联系我们</h2>
+        <p>地址：北京市昌平区龙域北街10号院1号楼5层519</p>
+        <p>电话：18612598455</p>
+        <p>邮箱：mojianyue@thingsrun.com 或者 80248150@qq.com</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 北京行臻科技有限责任公司</p>
+    <a href="/privacy-policy.html">隐私政策</a>
+    <a href="/terms-of-service.html">服务条款</a>
+</footer>
+
+</body>
+</html>
